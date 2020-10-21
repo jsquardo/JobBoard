@@ -1,4 +1,4 @@
-# Ruby on Rails API + React + Docker Starter
+# Made Using Ruby on Rails API + React + Docker
 
 \** It's a starter app to help people create the Rails+React monolith with independent projects Rails is on *backend* folder and React on *frontend\*, that comes with:
 
