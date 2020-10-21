@@ -1,16 +1,18 @@
-task seed_jobs: :environment do
+namespace :custom do
+  task seed_jobs: :environment do
 
-  Job.create(
-      company: 'Amazon',
-      position: 'Staff Software Engineer',
-      description: 'Be the lead technical resource'
-  )
+    Job.create(
+        company: 'Amazon',
+        position: 'Staff Software Engineer',
+        description: 'Be the lead technical resource'
+    )
 
-  Job.create(
-      company: 'Microsoft',
-      position: 'Engineer',
-      description: 'Write code'
-  )
+    Job.create(
+        company: 'Microsoft',
+        position: 'Engineer',
+        description: 'Write code'
+    )
 
-  puts 'complete'
+    puts 'complete'
+  end
 end
